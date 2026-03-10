@@ -1,0 +1,30 @@
+{
+  "name": "quicker",
+  "version": "1.0.0",
+  "description": "A quicker development for quicker access of javascript objects and methods with custom utilities and enhanced type guards and error reporting.",
+  "main": "./src/index.js",
+  "files": [
+    "src",
+    "types"
+  ],
+  "exports": {
+    ".": {
+      "require": "./src/index.js"
+    },
+    "./console": {
+      "require": "./src/console/console.js",
+      "types": "./types/console/console.d.ts"
+    },
+    "./guards": {
+      "require": "./src/guards/guards.js",
+      "types": "./types/guards/guards.d.ts"
+    }
+  },
+  "scripts": {
+    "dev": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "Carl Sebastian",
+  "license": "MIT",
+  "type": "module"
+}

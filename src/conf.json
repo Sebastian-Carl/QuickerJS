@@ -1,0 +1,12 @@
+{
+  "CONSOLE": {
+    "SILENT": {
+      "DEBUG": false,
+      "ERROR": false,
+      "INFO": false,
+      "LOG": false,
+      "VERBOSE": false,
+      "WARN": false
+    }
+  }
+}
